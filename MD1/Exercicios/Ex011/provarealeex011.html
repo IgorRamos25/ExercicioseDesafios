@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste imagens dinamicas</title>
+</head> 
+<body>
+    <h1>Vou tentar colocar pelo menos 3 imagens iguais mas de tamanhos diferentes e ver se sai como deve</h1>
+    <picture>
+        <source media="(max-width: 710px )" srcset="Provarealex011imagens/dory500.jpg" type="image/png">
+        <source media="(max-width: 1010px )" srcset="Provarealex011imagens/dory700.jpg" type="image/jpg">
+        <img src="Provarealex011imagens/dory1000.jpg" alt="imagem flexível">
+    </picture>
+
+<h1>Colocando áudio no site</h1>
+<p>Nesse teste vou só por qualquer som do jeito que ele ensinou pra tocar e repetir no site</p>
+
+    <audio preload="metadata" autoplay controls loop >
+
+        <source src="provarealex011midia/whispers-in-my-head-hd.mp3" type="audio/mpeg">
+
+        <source src="provarealex011midia/whispers-in-my-head-hd.ogg" type="audio/ogg">
+
+        <source src="provarealex011midia/whispers-in-my-head-hd.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
